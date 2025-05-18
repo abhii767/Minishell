@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Allow specific executable in dist folder
+!dist/minishell.exe
+
+# Still ignore other build files
+dist/*
+!dist/minishell.exe
+
 # IDE and editor files
 .idea/
 *.swp
