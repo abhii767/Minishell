@@ -1,1 +1,6 @@
-# Add dependencies if needed
+# Core requirements
+colorama==0.4.6  # Cross-platform colored terminal text
+
+# Platform-specific dependencies
+platformdirs==3.10.0  # For consistent cross-platform paths
+
