@@ -75,3 +75,12 @@ MiniShell is a lightweight, cross-platform command shell that provides a unified
 - Command history (persistent across sessions)
 - Colorized output and prompts
 - Cross-platform command translation (Unix ↔ Windows)
+
+  ## Windows Users (No Python Required)
+
+1. Download the executable:
+   - [minishell.exe](dist/minishell.exe)
+
+2. Run it:
+   ```cmd
+   dist\minishell.exe
