@@ -1,9 +1,48 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-env/
+*$py.class
+
+# IDE and editor files
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Virtual environment files
 venv/
+env/
+ENV/
+
+# Build and distribution files
 build/
 dist/
-*.spec
+*.egg-info/
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# System files
 .DS_Store
 Thumbs.db
+
+# Project-specific ignores
+*.minishell_history  # Local history file (global one is in ~/)
+*.bak
+*.tmp
+
+# Testing files
+.pytest_cache/
+coverage.xml
+*.cover
+htmlcov/
+
+# macOS specific
+._*
+
+# Windows specific
+[Dd]esktop.ini
